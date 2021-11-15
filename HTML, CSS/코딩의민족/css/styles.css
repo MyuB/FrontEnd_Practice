@@ -1,0 +1,106 @@
+@font-face{
+  font-family: Baemin;
+  src:url("../fonts/BMJUA_otf.otf")
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Baemin;
+}
+
+body{
+  background-color: #F0E8D9 ;
+  text-align: center;
+  color: #58595B;
+}
+
+#heading{
+  margin-top: 75px;
+  font-size: 64px;
+}
+
+#subheading{
+  margin-top: 30px;
+  margin-bottom: 75px;
+  font-size: 32px;
+}
+
+.block{
+  width: 300px;
+  background-color: white;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+.food_name{
+  padding-top: 20px;
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+.description{
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+
+.purchase{
+  font-size: 16px;
+  color: #0000EE;
+  padding-bottom: 20px;
+}
+
+.baro{
+  text-decoration: none;
+}
+
+#chicken{
+  width: 300px;
+  height: 200px;
+  background-image: url("../images/chicken.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: auto;
+  margin-right: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#sushi{
+  width: 300px;
+  height: 200px;
+  background-image: url("../images/sushi.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: auto;
+  margin-right: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#hamburger{
+  width: 300px;
+  height: 200px;
+  background-image: url("../images/burger.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: auto;
+  margin-right: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#korean{
+  width: 300px;
+  height: 200px;
+  background-image: url("../images/bibimbap.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: auto;
+  margin-right: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}

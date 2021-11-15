@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+#navbar {
+  padding: 0 20px;
+  border-bottom: 1px solid #eee;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.50);
+  height: 60px;
+}
+
+#logo {
+  font-family: serif;
+  float: left;
+  padding-top: 17.5px;
+}
+
+#menu{
+  color: black;
+  font-size: 16px;
+}
+
+#menu div{
+  float: right;
+  vertical-align: middle;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 17.5px;
+  height: 60px;
+}
+
+#menu div:hover{
+  background-color: #eeeeee;
+}
+
+/* 그 정석 방법은 뭐냐면 
+ #logo img 에다가 vertical-align: middle;을 주고
+ #로고에 line-height: 60을 줘버리면 끝남
+ */
+
+.hero-header {
+  background-image: url("../images/hero_image.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 670px;
+  text-align: center;
+}
+
+/* 얘도 정석 방법은 뭐냐면 
+info 태그는 그대로 하는게 맞고 
+.hero-header에다가 line-height: 670px 준다음에 
+info에다가 line-height: normal 줘버리면 새로운 div태그 안만들고 할 수 있음*/
+
+.hero-header .empty{
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.hero-header .info {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.hero-header .info h1 {
+  font-size: 36px;
+  margin: 0;
+  margin-bottom: 13px;
+  color: white;
+  font-weight: 400;
+}
+
+.hero-header .info h2 {
+  font-size: 16px;
+  margin: 0;
+  margin-bottom: 60px;
+  color: white;
+  font-weight: 400;
+}
+
+.hero-header .info a {
+  font-size: 14px;
+  background-color: white;
+  color: #464273;
+  padding: 10px 40px;
+  text-decoration: none;
+  border-radius: 5px;
+}

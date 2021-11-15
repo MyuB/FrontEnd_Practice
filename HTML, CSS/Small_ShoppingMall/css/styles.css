@@ -1,0 +1,208 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 992px;
+  font-family: "Helvetica";
+}
+
+#navbar{
+  height: 60px;
+}
+
+#navbar .logo{
+  height: 60px;
+  padding-left: 30px;
+  line-height: 60px;
+  float: left;
+}
+
+#navbar .logo img{
+  vertical-align: middle;
+}
+
+#navbar .nav{
+  font-size: 13px;
+  text-decoration: none;
+  float: right;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar .nav li{
+  float: left;
+}
+
+#navbar .nav li:last-child{
+  padding-right: 30px;
+}
+
+#navbar .nav li a{
+  margin-left: 30px;
+  line-height: 60px;
+  text-decoration: none;
+  color: black;
+}
+
+
+#hero_header{
+    background-image: url("../images/hero_header.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 450px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#products{
+  width: 735px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#products h1{
+  text-align: center;
+  font-size: 24px;
+  color: #545454;
+  font-style: bold;
+  margin-bottom: 60px;
+}
+
+.items{
+  width: 735px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.thing{
+  width: 225px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+  float: left;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.name, .price{
+  color: #545454;
+  font-size: 16px;
+}
+
+.name{
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.price{
+  margin-top: 4px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#sunglasses{
+  width: 225px;
+  height: 225px;
+  background-image: url("../images/sunglasses.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#tloafer{
+  width: 225px;
+  height: 225px;
+  background-image: url("../images/tassel_loafer.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#bbag{
+  width: 225px;
+  height: 225px;
+  background-image: url("../images/beige_bag.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#sneakers{
+  width: 225px;
+  height: 225px;
+  background-image: url("../images/sneakers.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#slippers{
+  width: 225px;
+  height: 225px;
+  background-image: url("../images/slippers.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#watch{
+  width: 225px;
+  height: 225px;
+  background-image: url("../images/wrist_watch.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#hat{
+  width: 225px;
+  height: 225px;
+  background-image: url("../images/fedora_hat.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#cloafer{
+  width: 225px;
+  height: 225px;
+  background-image: url("../images/classic_loafer.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#pbag{
+  width: 225px;
+  height: 225px;
+  background-image: url("../images/pink_bag.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footer{
+  text-align: center;
+  margin-bottom: 80px;
+  clear: both;
+  margin-top: 160px;
+}
+
+#footer a{
+  text-decoration: none;
+  margin-right: 20px;
+}
